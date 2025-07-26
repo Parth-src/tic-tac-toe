@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FCF8DD;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+     width: 60vmin;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items:center;
+     gap: 1.5vmin;
+    
+
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    background-color: #00809D;
+    color:#FFD700 ;
+    font-size: 8vmin;
+
+}
+
+.restart{
+    padding-bottom: 2vmin;
+    padding-top: 2vmin;
+    padding-left: 3vmin;
+    padding-right: 3vmin;
+    font-size: 3vmin;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 1rem;
+    background-color: #DC3C22;
+    color: #FDFAF6;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.restart:hover {
+    transform: scale(1.05); 
+}
+
+.msg{
+    font-size: 8vmin;
+    padding-bottom: 1vmin;
+}
+
+.new{
+    padding-bottom: 2vmin;
+    padding-top: 2vmin;
+    padding-left: 3vmin;
+    padding-right: 3vmin;
+    font-size: 3vmin;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 1rem;
+    background-color: #DC3C22;
+    color: #FDFAF6;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+
+}
+
+.new:hover {
+    transform: scale(1.05); 
+}
+
+.wincontainer{
+    padding-bottom: 2vmin;
+    padding-top: 1vmin;
+    height: 90vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8rem;
+    
+}
+
+.hide{
+    display: none;
+}
+
+.header {
+    font-size: 6vmin;
+    color: white;
+    letter-spacing: 2px;
+}
+.heading {
+    background-color: #004466;
+    color: white;
+    padding: 1.5vmin 0;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
